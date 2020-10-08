@@ -1,0 +1,57 @@
+p {
+       background-color: rgb(255, 183, 121);
+}
+p {
+       border: 5px solid rgb(104, 195, 218);
+
+}
+.first {
+       border-style: dashed;
+       border-color: rgb(129, 46, 46);
+       padding: 50px;
+       margin: 50px;
+       letter-spacing: 5px;
+       text-align: left;
+       text-shadow: 2px 2px 2px;
+}
+.third {
+       border-style: dashed;
+       border-color: rgb(129, 46, 46);
+       padding: 50px;
+       margin: 50px;
+       text-align: center;
+ 
+}
+
+}
+.second {
+       border-style: solid;
+       border-color: rgb(50, 124, 50);
+       padding-top: 50px;
+       margin: 50px;
+       text-align: right;
+       text-indent: ;
+}
+
+#firstparagraph::first-letter {
+       font-weight: bold;
+       font-size: 28x;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
