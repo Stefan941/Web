@@ -1,0 +1,25 @@
+.first,
+.first:hover {
+    background-color: rgb(182, 67, 67);
+    color: whitesmoke;
+}
+table {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+table tr:nth-child(even) td{
+    background-color: rgb(230, 230, 230);
+   
+}
+tr:hover,
+table tr:nth-child(even):hover td {
+    background-color: rgb(236, 192, 96);
+}
+table img{
+    margin-left: auto;
+    margin-right: auto;
+}
