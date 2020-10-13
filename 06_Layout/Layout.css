@@ -1,0 +1,20 @@
+#firstImg {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 100px;
+}
+#secondImg {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+#thirdImg {
+    position: absolute;
+    bottom: 0px;
+}
+div a {
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+}

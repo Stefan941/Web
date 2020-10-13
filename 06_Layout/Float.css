@@ -1,0 +1,29 @@
+.mainContent {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#left {
+    float: left;
+    width: 200px;
+}
+.classList {
+    background-color: rgb(192, 64, 42);
+    width: 700px;
+    list-style-type: none;
+
+}
+div > div > img {
+    width: 31.7%;
+    float: left;
+    margin: 1px;
+}
+.cf {
+    display: table;
+    content: "";
+    clear: both;
+    background-color: rgb(9, 131, 131);
+    width: 150%;
+    margin-left: auto;
+    margin-right: auto;
+}

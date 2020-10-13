@@ -1,0 +1,71 @@
+div {
+    width: 200px;
+    height: 200px;
+}
+#first {
+    background-color: rgb(228, 172, 20);
+}
+#second {
+    background-color: rgb(226, 79, 52);
+}
+#third {
+    background-color: teal;
+}
+#first2 {
+    background-color: rgb(228, 172, 20);
+}
+#second2 {
+    background-color: rgb(226, 79, 52);
+}
+#third2 {
+    background-color: teal
+}
+#first2, #second2, #third2 {
+    position: relative;
+    bottom: 500px;
+    left: 300px;
+}
+#second2 {
+    position: relative;
+    top: -650px;
+    left: 400px;
+    z-index: 5;
+}
+#third2 {
+    position: relative;
+    top: -800px;
+    left: 500px;
+    z-index: 5;
+}
+#first3 {
+    background-color: rgb(228, 172, 20);
+}
+#second3 {
+    background-color: rgb(226, 79, 52);
+}   
+#third3 {
+    background-color: teal;
+}
+#first3, #second3, #third3 {
+    position: relative;
+    bottom: 1150px;
+    left: 900px;
+}
+#first3 {
+    position: relative;
+    top: -1200px;
+    left: 1200px;
+    z-index: 1;
+}
+#second3 {
+    position: relative;
+    top: -1300px;
+    left: 1110px;
+    z-index: 1;
+}
+#third3 {
+    position: relative;
+    top: -1400px;
+    left: 1020px;
+    z-index: 1;
+}
