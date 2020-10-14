@@ -1,0 +1,11 @@
+.main {
+    background-image: url(./images/image_5.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position: right center;
+    font-size: 15px;
+    background-size: cover;
+}
+body p,  h1, h3{
+    color: rgb(0, 0, 0)
+}

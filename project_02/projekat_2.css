@@ -1,0 +1,72 @@
+.cf {
+    content: "";
+    display: table;
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}
+#main {
+    width: 960px;
+    margin: auto;
+    margin top: 0;
+}
+#nav {
+    background-color: rgb(202, 62, 62);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+#nav ul {
+    list-style-type: none;
+    float: right;
+}
+#nav ul li {
+    float: right;
+    margin: 0 15px;
+}
+#lis {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main #img img {
+    width: 100%;
+    margin-top: 2px;
+}
+.img2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 31%;
+    list-style: none;
+    margin: 0px;
+    float: left;
+    margin-right: 3.5%;
+    height: 414px;
+}
+.bitS {
+    background-color: #1e3347;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    
+}
+.bitS p{
+    width: 960px;
+    margin-left: 500px;
+}
+li.img2:nth-child(3n){
+    margin-right: 0px;
+}
+ul {
+    padding: 0px;
+}
+.img2 ul li {
+    list-style-type: none;
+    background-color: rgb(253, 187, 45);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    border-bottom: solid 1px rgb(100, 99, 99);
+    padding-top: 45px;
+}
+.img2 ul {
+    padding: 0 17px;
+    background: #fdbb2d;
