@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+.cf::before, .cf::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+.conteinter {
+    width: 70%;
+    margin: 0 auto;
+}
+img {
+    width: 200px;
+    float: left;
+}
+.prvi {
+    width: 50%;
+    float: left;
+}
+.drugi { /* moze i ovako da se napise, da pogadja u main-u svaki drugi child --->- main section:nth-child(2)*/
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    border-left: solid 2px black;
+    padding-left: 20px;
+}
+.drugi > article {
+    padding bottom: 15px;
+}
+.glavna {
+    float: left;
+    padding-left: 25px;
+}
+
+/* Responsive */
+
+@media all and (max-width: 1050px) {
+
+    .conteinter {
+        padding: 0 20px;
+    }
+
+}
+
+@media all and (max-width: 720px) {
+
+    main section {
+        width: 100%;
+    }
+    main section:nth-child(2) {
+
+    }
+
+/* media all and (max-width: 721px)
+border-left: solid 2px black
+padding-left: 20px*/
+
+}

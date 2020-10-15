@@ -52,7 +52,7 @@
 }
 .bitS p{
     width: 960px;
-    margin-left: 500px;
+    margin-left: 460px;
 }
 li.img2:nth-child(3n){
     margin-right: 0px;
@@ -68,5 +68,6 @@ ul {
     padding-top: 45px;
 }
 .img2 ul {
-    padding: 0 17px;
+    padding: 0 20px;
+    padding-bottom: 20px;
     background: #fdbb2d;

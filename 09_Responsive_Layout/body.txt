@@ -1,0 +1,19 @@
+body
+
+    div - levo desno sirina
+        header 
+              img - ide levo
+               div
+                   h1
+                    span/p
+                    
+                    ________________
+
+        main
+            section - levo
+                    article
+                            h3
+                            p
+            section - desno
+                    article
+                    article
