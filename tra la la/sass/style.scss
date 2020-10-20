@@ -1,0 +1,30 @@
+@import "variables";
+@import "mixins";
+
+
+
+// neka ga ovo sad tu, ali kada ima mnogo vise elemenata i 
+// mnogo vise linija koda svaki partial (file sa donjom crtom)
+// nosi naziv zasebnog elementa npr. _header za sve sto se odnosi na header
+
+
+header ul { @include box();
+    font-size: $size;
+}
+.container {
+    background-color: $boja;
+}
+p { @include text();
+    color: black;
+}
+
+article {
+     div {
+        font-size: 40px;
+        span {
+            color: greenyellow;
+        }
+    }
+}
+
+

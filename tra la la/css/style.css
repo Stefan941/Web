@@ -1,0 +1,17 @@
+header ul {
+  box-shadow: 5px 5px 5px #5ccda2;
+  font-size: 20px; }
+
+.container {
+  background-color: white; }
+
+p {
+  text-shadow: 5px 5px 5px black;
+  color: black; }
+
+article div {
+  font-size: 40px; }
+  article div span {
+    color: greenyellow; }
+
+/*# sourceMappingURL=style.css.map */
