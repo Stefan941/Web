@@ -49,10 +49,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float: left;
     
+    
 }
 .bitS p{
     width: 960px;
-    margin-left: 500px;
+    margin-left: 185px;
 }
 li.img2:nth-child(3n){
     margin-right: 0px;
@@ -65,8 +66,9 @@ ul {
     background-color: rgb(253, 187, 45);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     border-bottom: solid 1px rgb(100, 99, 99);
-    padding-top: 45px;
+    padding-top: 50px;
 }
 .img2 ul {
-    padding: 0 17px;
+    padding: 0px 17px;
+    padding-bottom: 25px;
     background: #fdbb2d;
