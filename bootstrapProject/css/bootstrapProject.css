@@ -1,0 +1,60 @@
+.header {
+  background-color: #293E4F;
+  color: white; }
+
+#navbarNavAltMarkup {
+  justify-content: flex-end; }
+
+.container-fluid {
+  color: white;
+  padding: 0;
+  margin: 0; }
+
+.jumbotron1 {
+  background-color: #00BC9C;
+  text-align: center; }
+
+.gallery img {
+  width: 100%;
+  margin-bottom: 30px; }
+
+.naslov {
+  color: white;
+  text-align: center; }
+
+.paragraph {
+  text-align: left;
+  color: white; }
+
+.about {
+  background-color: #00BC9C;
+  padding-bottom: 80px;
+  padding-top: 80px; }
+
+.btn.btn-outline-light {
+  margin-top: 20px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.naslov2 {
+  margin-top: 55px;
+  text-align: center; }
+
+.btn.btn-success {
+  margin-top: 20px;
+  display: block;
+  background-color: #00BC9C; }
+
+.paragraph2 {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.footer {
+  background-color: #293E4F;
+  color: white;
+  margin-top: 50px; }
+
+/*# sourceMappingURL=bootstrapProject.css.map */
