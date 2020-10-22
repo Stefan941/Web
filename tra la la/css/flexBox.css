@@ -1,0 +1,19 @@
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background: #ccc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; }
+  ul li {
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: orange;
+    color: #fff;
+    text-align: center; }
+
+/*# sourceMappingURL=flexBox.css.map */

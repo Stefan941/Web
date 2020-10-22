@@ -1,0 +1,21 @@
+div {
+    font-size: 35px;
+}
+div {
+    border: 1px solid rgb(36, 35, 35);
+}
+.first {
+    background-color: rgb(177, 131, 110);
+}
+.second {
+    background-color: skyblue;
+}
+.third {
+    background-color: rgb(197, 166, 125);
+}
+.prvi, .drugi {
+    background-color: rgb(233, 219, 195);
+}
+p {
+    background-color: tomato;
+}
