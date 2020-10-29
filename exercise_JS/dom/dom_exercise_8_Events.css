@@ -1,0 +1,15 @@
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(./cartoonFootballPitch.jpg);
+    background-size: cover;
+}
+.zidane {
+    width: 150px;
+    height: 150px;
+    background-image: url(./zinedineZidane.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+}
