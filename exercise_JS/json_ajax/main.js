@@ -18,9 +18,9 @@ function getData() {
     var req = new XMLHttpRequest();
     req.open('GET', 'https://dog.ceo/api/breeds/image/random');
 
-    req.onload = function () {
+    req.onload = function () { //kad se uspesno desi funkcija ovo ce se desiti
         // removeCurrentImage();
-        createImage(JSON.parse(req.responseText).message) //responseText je objekat u JASON formatu zato sam umotao u JSON.parse da pretvorim u JS objekat, on u sebi ima 2 propertyja, najbolje consologovati req i responeseText, property message se ne zove uvek tako
+        createImage(JSON.parse(req.responseText).message) // --sve ovo u zagradi je parametar tj. URL -- responseText je string zato sam umotao u JSON.parse da pretvorim u JS objekat, on u sebi ima 2 propertyja, najbolje consologovati req i responeseText, property message se ne zove uvek tako
     }
     req.send();
 }
