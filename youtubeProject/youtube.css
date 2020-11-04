@@ -21,14 +21,26 @@ main .wrapper {
 main .wrapper > div {
     width: 31%;
     margin-right: 3.5%;
-}
-
-main .wrapper > div:nth-child(3n) {
-    margin-right: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 main .wrapper > div img {
     width: 100%;
 }
 main .wrapper > div p {
-    font-size: 30px;
+    font-size: 19px;
+}
+iframe {
+    /* display: none; */
+    width: 100%;
+    height: 0;
+    transition: all .5s ease;
+}
+iframe.visible {
+    /* display: block; */
+    height: 315px;
+}
+.all {
+    width: 100%;
+    max-width: 1020px;
+    margin: auto;
 }
