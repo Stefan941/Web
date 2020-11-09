@@ -1,0 +1,70 @@
+header {
+  background-color: #343a40;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+main.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+main.wrapper > div {
+  width: 33%;
+}
+main.wrapper div img {
+  width: 100%;
+}
+main.wrapper div p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.headline {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+footer {
+  background-color: #343a40;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  height: 50px;
+}
+footer span {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.container2 {
+  height: 1020px;
+}
+.wrapper2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.container2 .wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  background-color: rgb(218, 214, 185);
+}
