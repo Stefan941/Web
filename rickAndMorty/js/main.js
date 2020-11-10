@@ -1,10 +1,10 @@
 let character = document.querySelector("main.wrapper");
 
-function storeCharacter(dataId) {
+const storeCharacter = (dataId) => {
     localStorage.setItem("id", dataId);
 }
 
-function createCharacters(dataChar) {
+const createCharacters = (dataChar) => {
     //console.log("Single", dataChar)
     let container = document.createElement("div");
     let img = document.createElement("img");
@@ -17,21 +17,20 @@ function createCharacters(dataChar) {
     container.appendChild(name)
     character.appendChild(container)
 
-    name.addEventListener("click", function () {
+    img.addEventListener("click", function () {
         storeCharacter(dataChar.id);
         window.location.href = "./index2.html";
     });
 
 }
 
-function listCharacters(data) {
-    console.log(data)
-    for (var i = 0; i < 20; i++) {
+const listCharacters = (data) => {
+    for (let i = 0; i < data.length; i++) {
         createCharacters(data[i]);
     }
 }
 
-function getCharacters() {
+const getCharacters = () => {
     // var req = new XMLHttpRequest();
     // var baseUrl = "https://rickandmortyapi.com/api/character";
 
@@ -45,10 +44,8 @@ function getCharacters() {
     const url = "https://rickandmortyapi.com/api/character"
 
     fetch(url)
-        .then(function (response) {
-            return response.json()
-        })
-        .then(function (data) {
+        .then((response) => response.json())
+        .then((data) => {
             listCharacters(data.results);
         })
 }

@@ -1,5 +1,5 @@
 body {
-    background-image: url(/rickAndMorty/jpg/rick-and-morty-netflix-2020-9d.jpg);
+    background-image: url(/jpg/rick-and-morty-in-dragon-ball-wallpaper.jpg);
     background-position: center;
     background-repeat: repeat;
     background-size: contain;
@@ -40,9 +40,10 @@ footer {
     max-width: 1020px;
     margin: 0 auto;
   }
-  main.wrapper > div {
-    width: 33%;
+  main.wrapper  div {
+    width: 23%;
     background-color: white;
+    margin-bottom: 20px;
   }
   main.wrapper div img {
     width: 100%;
@@ -54,7 +55,7 @@ footer {
     color: #000;
   }
 .second {
-    background-image: url(/rickAndMorty/jpg/rick-and-morty-in-dragon-ball-wallpaper.jpg);
+    background-image: url(/jpg/rick-and-morty-netflix-2020-9d.jpg);
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
@@ -68,4 +69,3 @@ footer {
 .MainContainer div {
     width: 80%;
 }
-

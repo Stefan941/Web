@@ -1,6 +1,6 @@
 let oneCharacter = document.querySelector("main.wrapper")
 
-function createCharacter(dataChar) {
+const createCharacter = (dataChar) => {
 
     let container = document.createElement("div");
     let img = document.createElement("img");
@@ -17,15 +17,15 @@ function createCharacter(dataChar) {
 
 
 
-function getCharacter() {
+const getCharacter = () => {
 
     const url = "https://rickandmortyapi.com/api/character/" + localStorage.getItem("id")
 
     fetch(url)
-        .then(function (response) {
+        .then((response) => {
             return response.json()
         })
-        .then(function (data) {
+        .then((data) => {
             createCharacter(data);
         })
 }
